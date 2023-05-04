@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { decrementValue, incrementValue } from "../redux/action/action";
 
 const IncrementDecrement = () => {
+  // use useselector hook to get data
   const value = useSelector((elm) => elm.value);
 
   const dispatch = useDispatch();
